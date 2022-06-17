@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './pokemon-list.component.html',
   styleUrls: ['./pokemon-list.component.scss']
 })
-export class PokemonListComponent { }
+export class PokemonListComponent {
+  pokemons = ["sharizard", "pikachu"];
+}
