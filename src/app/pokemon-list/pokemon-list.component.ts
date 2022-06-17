@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./pokemon-list.component.scss']
 })
 export class PokemonListComponent {
-  pokemons = ["sharizard", "pikachu"];
+  pokemons = ["Bulbasaur", "Ivysaur"];
 }
