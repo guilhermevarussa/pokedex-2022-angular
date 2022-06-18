@@ -1,0 +1,10 @@
+*{
+    background-color: rgb(247, 247, 247);
+}
+
+.pokemon-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
