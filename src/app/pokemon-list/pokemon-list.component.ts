@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PokeApiService } from '../poke-api.service';
 
 @Component({
   selector: 'app-pokemon-list',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./pokemon-list.component.scss']
 })
 export class PokemonListComponent {
-  pokemons = ["Bulbasaur", "Ivysaur"];
+  constructor(public pokemonApi: PokeApiService) {
+
+  }
+
+
 }
